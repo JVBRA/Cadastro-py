@@ -39,7 +39,7 @@ label_tipo_unidade.grid(row=3, column=0,padx = 10, pady=10, sticky='nswe', colum
 combobox_selecionar_tipo = ctk.CTkComboBox(janela_cadastro, values=lista_tipos)
 combobox_selecionar_tipo.grid(row=3, column=2, padx = 10, pady=10, sticky='nswe', columnspan = 2)
 
-label_quant =  ctk.CTkLabel(janela_cadastro, text="Quantidade na unidade de matetial")
+label_quant =  ctk.CTkLabel(janela_cadastro, text="Unidade de medida")
 label_quant.grid(row=4, column=0,padx = 10, pady=10, sticky='nswe', columnspan =2 )
 entry_quant =  ctk.CTkComboBox(janela_cadastro, values=unidades)
 entry_quant.grid(row=4, column=2,padx = 10, pady=10, sticky='nswe', columnspan =2 )
@@ -49,7 +49,7 @@ label_peso.grid(row=5, column=0,padx = 10, pady=10, sticky='nswe', columnspan =2
 entry_peso =  ctk.CTkEntry(janela_cadastro)
 entry_peso.grid(row=5, column=2,padx = 10, pady=10, sticky='nswe', columnspan =2 )
 
-label_unidade =  ctk.CTkLabel(janela_cadastro, text="Unidade de medida")
+label_unidade =  ctk.CTkLabel(janela_cadastro, text="Quantidade na unidade de matetial")
 label_unidade.grid(row=6, column=0,padx = 10, pady=10, sticky='nswe', columnspan =2 )
 entry_unidademedida =  ctk.CTkEntry(janela_cadastro)
 entry_unidademedida.grid(row=6, column=2,padx = 10, pady=10, sticky='nswe', columnspan =2 )
